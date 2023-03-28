@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float property</title>
+    <style>
+        .container {
+            width: 800px;
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: blue;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Serif';
+        }
+
+        nav {
+            background-color: lightblue;
+        }
+
+        nav ul {
+            margin: 0;
+            list-style-type: none;
+
+        }
+
+        @media screen and (min-width:768px) {
+            .container {
+                width: 800px
+            }
+
+            nav ul li {
+                display: inline;
+                padding: 0  20 px;
+            }
+            #left{
+                float: left;
+            }
+            #left img,
+           /* #ritgh img
+            {
+                width: 250px;
+                margin:8px;
+
+            }
+            #right{
+                clear: right;
+                float:right;
+            }*/
+            footer{
+                clear:both;
+                background-color: blueviolet;
+                color: white;
+                text-align: center;
+            }
+            footer p {
+                margin:0; 
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>EPICPODE</h1>
+            <nav>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Angular</li>
+                    <li>React</li>
+                </ul>
+
+
+            </nav>
+        </header>
+        <main>
+            <aside id="left">
+                <img src="http://placeKitten.com/600" alt="Kitten pic" />
+            </aside>
+            <section>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ab impedit, veniam cumque iure
+                    perferendis facere officiis, molestias corrupti autem tempora, eum sint blanditiis assumenda magnam
+                    aperiam repellendus et placeat!
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quos porro illo alias voluptatum qui
+                    aperiam laboriosam odit eos earum reprehenderit, sunt sapiente assumenda! Alias esse ea iste
+                    sapiente nemo.
+                </p>
+            </section>
+            
+            <footer>
+                <p>
+                    EPICPODE
+                </p>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>

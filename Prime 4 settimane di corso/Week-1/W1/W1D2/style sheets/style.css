@@ -1,0 +1,38 @@
+#titolo{
+    background-color:#fefbf1 ;
+    color:#004d4d ;
+    border-top:#ffd977 ;
+    text-align: center;
+    text-emphasis: bold;
+}
+#header{
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#procedimento{
+    border-left: #ffd977;
+    text-align: center;
+
+}
+#linkricetta{
+    color: red;
+    font-style: bold;
+}
+#secondotitolo{
+    padding: auto;
+    margin: 20px
+    border-bottom: lightblue;
+    border width: 3px;
+}
+.sottotitolo{
+    text-align: left;
+    padding-left: 20%;
+    margin: 20px;
+
+}
+#video{
+    text-align: center;
+}
